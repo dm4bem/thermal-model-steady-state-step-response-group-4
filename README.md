@@ -8,6 +8,5 @@ Different codes are available in the main branch :
 - Insulation out.ipynb, that study the influence of the position of the insulation (either on the inside or on the outside of the walls) on the time step.
 - Conductivity_insulation.ipynb, that study the influence of the insulation's conductivity on the time step and settling time.
 - Glass_capacity.ipynb, that study the influence of neglecting the capacity of the glass on the behavior of the thermal system. 
-- Inputs.py, which calculate the total solar irradiance and then the solar radiation absorbed by the wall and the glass. It uses the weather data of a specific place (in a .epw file). The files walls_out.csv and input_data_set.csv are inputs for this code.
 
 For these codes, it is required that the file dm4bem.py is in the same folder as those ones in order for them to compile without errors.
